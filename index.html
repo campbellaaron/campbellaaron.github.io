@@ -101,16 +101,16 @@
           <h2>Contact</h2>
           <form action="https://formspree.io/f/meqvrnde" method="POST">
             <div class="form-group">
-              <label for="exampleFormControlInput">Email Address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput" placeholder="name@example.com">
+              <label for="email">Email Address</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
             </div>
             <div class="form-group">
-              <label for="exampleFormNumberInput">Phone Number:</label>
-              <input type="tel" class="form-control" id="exampleFormNumberInput" placeholder="Phone number">
+              <label for="number">Phone Number:</label>
+              <input type="tel" class="form-control" id="number" name="number" placeholder="Phone number" required>
             </div>
             <div class="form-group">
               <label for="comment">Comment:</label>
-              <textarea class="form-control" rows="5" id="comment" placeholder="Enter text here..."></textarea>
+              <textarea class="form-control" rows="5" id="comment" name="comment" placeholder="Enter text here..." required></textarea>
             </div>
             <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
           </form>
