@@ -1,0 +1,85 @@
+@use "../scss/variables" as v;
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header.App-header {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    max-width: 1200px;
+
+    @media (max-width: 520px) {
+        left: 0;
+    }
+
+}
+
+main {
+    margin-top: 12em;
+}
+
+section {
+    margin: 1em auto 2em;
+}
+
+.artstation-logo {
+    display: block;
+    width: auto;
+    height: 90px;
+    margin: 2em auto;
+}
+
+.artstation-link {
+    color: v.$secondary-color;
+}
+
+.form-submitted {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 4em;
+    
+    .submitting-msg {
+        display: block;
+        color: rgb(185, 164, 44);
+        text-align: center;
+        margin: 1.2em auto;
+    }
+    
+    .success-msg {
+        display: block;
+        color: rgb(20, 184, 115);
+        text-align: center;
+        margin: 2.3em auto;
+    }
+    
+}
+
+button.resetBtn {
+    width: auto;
+    max-width: 11em;
+    align-self: center;
+    padding: 5px 1.8em;
+    cursor: pointer;
+
+    &:hover {
+        background-color: v.$accent-color;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65,65,65);
+    margin: 1em auto 0;
+    padding: 1.3em 0;
+
+    p {
+        font-size: 0.8rem;
+    }
+}

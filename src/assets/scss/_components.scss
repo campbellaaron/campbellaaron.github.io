@@ -1,0 +1,443 @@
+@use "../scss/variables" as v;
+
+// Navbar Styling
+
+nav.navbar {
+    display: flex;
+    width: 100%;
+    padding: 0.5em 0;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgb(50,50,50);
+    z-index: 3;
+    font-size: 1.5rem;
+
+    img.logo {
+        object-fit: cover;
+        height: 6em;
+
+        @media (max-width: 768px) {
+            height: 4em;
+            margin-left: 0.7rem;
+        }
+    }
+
+    .menu {
+        .desktopMenuListItem {
+            margin: 1em;
+            padding: 0.5em 0;
+            cursor: pointer;
+
+            &:hover {
+                border-bottom: 2px solid v.$accent-color;
+            }
+            
+            &.active {
+                border-bottom: 2px solid v.$accent-color;
+            }
+        }
+        
+        @media (max-width: 992px) {
+            display: none;
+        }
+    }
+    
+    button.contactBtn {
+        width: auto;
+        padding: 5px 1.8em;
+        cursor: pointer;
+        
+        @media (max-width: 992px) {
+            display: none;
+        }
+    }
+
+    .menuIcon {
+        filter: invert(41%) sepia(23%) saturate(1198%) hue-rotate(241deg) brightness(91%) contrast(90%);
+        width: 2em;
+        height: 2em;
+
+        @media (min-width: 992px) {
+            display: none;
+        }
+    }
+
+    .navMenu {
+        position: absolute;
+        top: 5em;
+        right: 1em;
+        background-color: rgb(65,65,65);
+        flex-direction: column;
+        padding: 0.7em;
+        height: fit-content;
+        width: 100%;
+        min-width: 11em;
+        z-index: 2;
+        border-radius: 1em;
+
+        .listItem {
+            color: v.$white;
+            padding: 0.3em 1em;
+            margin: 0.25em;
+            background: rgb(50,50,50);
+            cursor: pointer;
+
+            &:hover {
+                border-bottom: 2px solid v.$accent-color;
+            }
+            
+            &.active {
+                border-bottom: 2px solid v.$accent-color;
+            }
+        }
+
+        @media (max-width: 520px) {
+            right: 0;
+            left: 0;
+        }
+    }
+}
+
+// Intro Styling
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    
+    .col {
+        width: 50%;
+        max-width: 50%;
+        
+        &.img {
+            
+            img {
+                width: 97%;
+                object-fit: cover;
+            }
+
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            width: auto;
+            max-width: 100%;
+        }
+    }
+    
+    .info {
+
+        &__greeting {
+            font-weight: 300;
+            font-size: 2rem;
+
+            @media (max-width: 768px) {
+                font-size: 1.6rem;
+            }
+            
+            @media (max-width: 520px) {
+                font-size: 1.35rem;
+            }
+        }
+    
+        &__intro {
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 4.2rem;
+            
+            .name {
+                color: v.$secondary-color;
+            }
+
+            
+            @media (max-width: 992px) {
+                font-size: 2.9rem;
+            }
+            
+            @media (max-width: 768px) {
+                font-size: 2.2rem;
+                line-height: 3.25rem;
+            }
+            
+            @media (max-width: 520px) {
+                font-size: 1.75rem;
+                line-height: 2.6rem;
+            }
+        }
+
+        &__description {
+            line-height: 2rem;
+        
+            @media (max-width: 768px) {
+                font-size: 1rem;
+            }
+        }
+
+        .hireBtn {
+            width: auto;
+            padding: 5px 1.8em;
+            cursor: pointer;
+            margin: 1em 0;
+
+            @media (max-width: 768px) {
+                margin: 1.2em auto;
+            }
+            
+        }
+    }
+
+    &::before {
+        
+        @media (max-width: 768px) {
+            content: "";
+            display: block;
+            position: absolute;
+            top: -8%;
+            left: -8%;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background:  linear-gradient(to top, rgba(50,50,50, 1) 14%, transparent), url('../../assets/img/awc.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.5;
+        }
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column-reverse;
+        position: relative;
+        height: 50vh;
+        z-index: -1;
+    }
+    
+}
+
+// About Me Styling
+
+#about {
+    width: 95%;
+    overflow: hidden;
+    margin: 1em auto;
+
+    h2.heading {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    p.about-me {
+        text-align: center;
+
+        @media (max-width: 768px) {
+            font-size: 0.8rem;
+        }
+    }
+
+    .skillCards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 2em auto;
+        width: 80%;
+        position: relative;
+        z-index: -1;
+
+        .skillCard {
+            display: flex;
+            align-items: center;
+            background: rgb(65,65,65);
+            padding: 2em 1.5em;
+            margin: 1em 0;
+            max-width: 850px;
+            width: 100%;
+            border-radius: 25px;
+
+            &__img {
+                width: 8em;
+                margin-right: 0.5em;
+
+                @media (max-width: 768px) {
+                    width: 5em;
+                }
+
+                @media (max-width: 520px) {
+                    width: 2.4em;
+                }
+            }
+
+            &__text {
+                position: relative;
+                margin-left: 0.75em;
+                letter-spacing: 1px;
+            }
+
+            &__title {
+                font-weight: 900;
+                font-size: 2rem;
+                margin-bottom: 0.5em;
+
+                @media (max-width: 768px) {
+                    font-size: 1rem;
+                }
+            }
+
+            &__desc {
+                font-size: 0.9rem;
+
+                ul {
+                    margin-left: 1.5em;
+                }
+            }
+
+            @media (max-width: 768px) {
+                width: auto;
+                min-width: 100%;
+                padding: 1em 0.6em;
+            }
+        }
+    }
+}
+
+// Portfolio Section Styling
+
+#portfolio {
+
+    margin: 1em auto;
+    overflow: hidden;
+
+    h2.heading {
+        font-size: 3rem;
+        text-align: center;
+        margin: 0.5em 0;
+    }
+
+    p.portfolio-desc {
+        text-align: center;
+        margin: 0.5em 0;
+        padding: 0 0.4em;
+
+        @media (max-width: 768px) {
+            font-size: 0.8rem;
+        }
+    }
+
+    .portfolio-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly; /* Adjust spacing as needed */
+        margin: 0 auto; /* Center the gallery horizontally */
+        width: 100%;
+
+        &__item {
+            margin: 2.2em 0.4em;
+            width: calc(100% / 4);
+            text-align: center;
+
+            &-image {
+                width: 100%;
+                max-width: 450px;
+                height: 100%;
+                max-height: 175px;
+                object-fit: cover;
+                margin-bottom: 5px;
+            }
+
+            &-title {
+                font-size: 1.4rem;
+                font-weight: 900;
+                margin-bottom: 5px;
+                
+                a {
+                    color: v.$secondary-color;
+                }
+
+                @media (max-width: 768px) {
+                    font-size: 1rem;
+                }
+            }
+
+            &-description {
+                font-size: 0.9rem;
+                width: 90%;
+                padding: 0 10px;
+                margin-bottom: 15px;
+
+                @media (max-width: 992px) {
+                    
+                }
+            }
+
+            @media (max-width: 768px) {
+                width: calc(100% / 3);
+                margin: 2.6em 0.5em;
+            }
+            
+            @media (max-width: 520px) {
+                width: 100%;
+                margin: 1.2em auto;
+            }
+        }
+    }
+}
+
+// Contact Form Styling
+
+#contact {
+    text-align: center;
+    margin: 1em auto;
+    overflow: hidden;
+
+    h2.heading {
+        font-size: 3rem;
+        margin: 0.5em 0;
+    }
+
+    p.description {
+        margin-bottom: 1.75em;
+
+        @media (max-width: 520px) {
+            font-size: 0.9rem;
+            padding: 0 1.5em;
+        }
+    }
+
+    .contactForm {
+        display: flex;
+        margin: 1em;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1em auto;
+        width: 80%;
+        max-width: 1200px;
+
+        label {
+            align-self: baseline;
+        }
+
+        input, textarea {
+            margin-bottom: 0.75em;
+            padding: 0.6em 1em;
+            color: v.$white;
+            font-size: 1rem;
+            background-color: rgb(65,65,65);
+            border: none;
+            border-radius: 0.7em;
+        }
+
+        .formSubmitBtn {
+            align-self: center;
+            margin: 2em;
+            padding: 0.8em 0.9em;
+            cursor: pointer;
+            width: 100%;
+            max-width: 11em;
+        }
+    }
+}

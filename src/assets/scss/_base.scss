@@ -1,0 +1,50 @@
+@use "./variables" as v;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+}
+
+body {
+    background: rgb(50, 50, 50);
+    color: v.$primary-color;
+    overflow-y: scroll;
+    font-family: v.$poppins, Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+h1,h2,h3,h4,h5.h6 {
+    font-family: v.$merriweather, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 2em;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: v.$white;
+
+    &:hover {
+        background-color: v.$secondary-color;
+        color: v.$white;
+        img {
+            filter: invert(98%) sepia(76%) saturate(27%) hue-rotate(282deg) brightness(115%) contrast(87%);
+        }
+    }
+
+    img {
+        object-fit: cover;
+        width: 1.7em;
+        margin: 0.75em 1em 0.75em 0;
+    }
+}
