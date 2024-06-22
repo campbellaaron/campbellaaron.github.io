@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.9dd3a36f.css",
+    "main.css": "/static/css/main.21b59d91.css",
     "main.js": "/static/js/main.9d3c4ca2.js",
     "static/media/awc.png": "/static/media/awc.20e8d65e20aa86d449bf.png",
     "static/media/react-weather-screenshot.png": "/static/media/react-weather-screenshot.f31460bc9f9faa5ea897.png",
@@ -20,11 +20,11 @@
     "static/media/python-figure.png": "/static/media/python-figure.ea4a0f4b28c2431ef405.png",
     "static/media/adobe-logo.png": "/static/media/adobe-logo.00f2edbcaade9d3b4a45.png",
     "index.html": "/index.html",
-    "main.9dd3a36f.css.map": "/static/css/main.9dd3a36f.css.map",
+    "main.21b59d91.css.map": "/static/css/main.21b59d91.css.map",
     "main.9d3c4ca2.js.map": "/static/js/main.9d3c4ca2.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dd3a36f.css",
+    "static/css/main.21b59d91.css",
     "static/js/main.9d3c4ca2.js"
   ]
 }
