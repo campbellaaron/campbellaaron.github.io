@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from 'react-scroll';
 import IMAGES from '../../assets/img'
 
 const Intro = () => {

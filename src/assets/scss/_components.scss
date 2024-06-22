@@ -7,12 +7,13 @@ nav.navbar {
     width: 100%;
     padding: 0.5em 0;
     align-items: center;
+    align-self: flex-start;
     justify-content: space-between;
     position: sticky;
     top: 0;
     background-color: rgb(50,50,50);
-    z-index: 3;
     font-size: 1.5rem;
+    z-index: 900;
 
     img.logo {
         object-fit: cover;
@@ -200,8 +201,8 @@ nav.navbar {
             left: -8%;
             right: 0;
             bottom: 0;
-            width: 100%;
-            height: 100%;
+            width: 80%;
+            height: 80%;
             background:  linear-gradient(to top, rgba(50,50,50, 1) 14%, transparent), url('../../assets/img/awc.png');
             background-repeat: no-repeat;
             background-size: cover;
@@ -211,10 +212,9 @@ nav.navbar {
     }
 
     @media (max-width: 768px) {
-        flex-direction: column-reverse;
         position: relative;
         height: 50vh;
-        z-index: -1;
+        z-index: 0;
     }
     
 }

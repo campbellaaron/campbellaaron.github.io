@@ -10,10 +10,9 @@ function App() {
   return (
     <><div className="App container">
       <header className="App-header">
-        <Navbar />
       </header>
-      <div id='top-of-content'></div>
       <main>
+        <Navbar />
         <Intro />
         <About />
         <Portfolio />

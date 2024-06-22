@@ -6,22 +6,6 @@
     margin: 0 auto;
 }
 
-header.App-header {
-    position: fixed;
-    top: 0;
-    width: 90%;
-    max-width: 1200px;
-
-    @media (max-width: 520px) {
-        left: 0;
-    }
-
-}
-
-main {
-    margin-top: 12em;
-}
-
 section {
     margin: 1em auto 2em;
 }
