@@ -8,6 +8,11 @@ const Portfolio = () => {
             <p className="portfolio-desc">Check out my works below! I have projects from previous clients using WordPress, as well as my game development prototypes.</p>
             <div className="portfolio-gallery">
                 <div className="portfolio-gallery__item">
+                    <img src={IMAGES.projComicCrud} alt="" className="portfolio-gallery__item-image" />
+                    <h4 className="portfolio-gallery__item-title"><a href="https://comicbooksweb20240714221856.azurewebsites.net/" target="_blank" rel="noopener noreferrer" className="item-link">Comic Book CRUD App</a></h4>
+                    <p className="portfolio-gallery__item-description">A CRUD app built in .NET Core 8 using an N-Tier structure, implementing the Repository and Unit of Work pattern. Connected to an Azure SQL database, using EntityFramework Core and ASP.NET Identity. One of my most recent, yet favorite, projects.</p>
+                </div>
+                <div className="portfolio-gallery__item">
                     <img src={IMAGES.projPETAwissen} alt="" className="portfolio-gallery__item-image" />
                     <h4 className="portfolio-gallery__item-title"><a href="https://wissenschaft-statt-tierversuche.de/" target="_blank" rel="noopener noreferrer" className="item-link">Wissenschaft statt Tierversuche</a></h4>
                     <p className="portfolio-gallery__item-description">One of the few PETA Germany sites I worked on.</p>

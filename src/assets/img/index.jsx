@@ -9,6 +9,7 @@ const IMAGES = {
     iconBriefcase: require('../img/briefcase.png'),
     iconChat: require('../img/chaticon.png'),
     iconMenu: require('../img/menu-icon.png'),
+    projComicCrud: require('../img/comiccrud-screenshot.png'),
     projFastChange: require('../img/fast-change-screen.png'),
     projINFMCP: require('../img/infmcp-screenshot.png'),
     projMAAC: require('../img/maac-after.png'),
