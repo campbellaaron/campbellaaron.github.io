@@ -26,6 +26,11 @@ const Portfolio = () => {
                 <li data-project-type="misc" onClick={handleMenuClick} className="filterMenu__item">Miscellaneous</li>
             </ul>
             <div className="portfolio-gallery">
+                <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'react' ? 'visible' : 'hidden'}`} data-project-type="react">
+                    <img src={IMAGES.projCrewChat} alt="" className="portfolio-gallery__item-image" />
+                    <h4 className="portfolio-gallery__item-title"><a href="https://mern-group-chat.onrender.com" target="_blank" rel="noopener noreferrer" className="item-link">Crew Chat MERN App</a></h4>
+                    <p className="portfolio-gallery__item-description">An ongoing MERN stack app built with Vite React, Firebase Storage, and TailwindCSS. Features file sharing, profile photos, and group chat capabilities. <strong>STILL TO COME: </strong>Email verification, Unread Messages notifications, Channel Admins to delete group channels</p>
+                </div>
                 <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'dotnet' ? 'visible' : 'hidden'}`} data-project-type="dotnet">
                     <img src={IMAGES.projComicCrud} alt="" className="portfolio-gallery__item-image" />
                     <h4 className="portfolio-gallery__item-title"><a href="https://comicbooksweb20240714221856.azurewebsites.net/" target="_blank" rel="noopener noreferrer" className="item-link">Comic Book CRUD App</a></h4>

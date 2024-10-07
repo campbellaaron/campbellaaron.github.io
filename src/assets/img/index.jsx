@@ -10,6 +10,7 @@ const IMAGES = {
     iconChat: require('../img/chaticon.png'),
     iconMenu: require('../img/menu-icon.png'),
     projComicCrud: require('../img/comiccrud-screenshot.png'),
+    projCrewChat: require('../img/crewchat_screenshot_02.png'),
     projFastChange: require('../img/fast-change-screen.png'),
     projINFMCP: require('../img/infmcp-screenshot.png'),
     projMAAC: require('../img/maac-after.png'),
