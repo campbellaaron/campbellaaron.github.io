@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.af9c2d30.css",
-    "main.js": "/static/js/main.3ef8a9a7.js",
+    "main.js": "/static/js/main.c3a886e7.js",
     "static/media/awc.png": "/static/media/awc.20e8d65e20aa86d449bf.png",
     "static/media/react-weather-screenshot.png": "/static/media/react-weather-screenshot.f31460bc9f9faa5ea897.png",
     "static/media/fast-change-screen.png": "/static/media/fast-change-screen.ba820fbca818489ae75c.png",
@@ -9,6 +9,7 @@
     "static/media/logo.png": "/static/media/logo.34dc9a9317ca2fe4b558.png",
     "static/media/startech-screenshot.png": "/static/media/startech-screenshot.e60726f65f7bad90d0eb.png",
     "static/media/infmcp-screenshot.png": "/static/media/infmcp-screenshot.d4b89e6bda6860bb97a0.png",
+    "static/media/crewchat_screenshot_02.png": "/static/media/crewchat_screenshot_02.c0bebd6055d212839451.png",
     "static/media/peta2dissection-screen.png": "/static/media/peta2dissection-screen.da5685d8fa280b8079b3.png",
     "static/media/sh-figure.png": "/static/media/sh-figure.3ba745398ae2159496bd.png",
     "static/media/petaDEveganstart-screen.png": "/static/media/petaDEveganstart-screen.d8b7067e2250a554f0d3.png",
@@ -22,10 +23,10 @@
     "static/media/adobe-logo.png": "/static/media/adobe-logo.00f2edbcaade9d3b4a45.png",
     "index.html": "/index.html",
     "main.af9c2d30.css.map": "/static/css/main.af9c2d30.css.map",
-    "main.3ef8a9a7.js.map": "/static/js/main.3ef8a9a7.js.map"
+    "main.c3a886e7.js.map": "/static/js/main.c3a886e7.js.map"
   },
   "entrypoints": [
     "static/css/main.af9c2d30.css",
-    "static/js/main.3ef8a9a7.js"
+    "static/js/main.c3a886e7.js"
   ]
 }
