@@ -26,6 +26,11 @@ const Portfolio = () => {
                 <li data-project-type="misc" onClick={handleMenuClick} className="filterMenu__item">Miscellaneous</li>
             </ul>
             <div className="portfolio-gallery">
+                <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'misc' ? 'visible' : 'hidden'}`} data-project-type="misc">
+                    <img src={IMAGES.laravelPM} alt="" className="portfolio-gallery__item-image" />
+                    <h4 className="portfolio-gallery__item-title"><a href="https://github.com/campbellaaron/laravel-project-management" target="_blank" rel="noopener noreferrer" className="item-link">Laravel Project Management App</a></h4>
+                    <p className="portfolio-gallery__item-description">Using Laravel+Vite, Tailwind, Laravel Breeze, and TinyMCE, this is a project management app that also features task time-tracking and a dashboard for admins and managers to track user activity and project progress.</p> <p><span className="text-xs proj-note">Note: Due to the nature of the app, I could not find a suitable free hosting tier for demonstration.</span></p>
+                </div>
                 <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'react' ? 'visible' : 'hidden'}`} data-project-type="react">
                     <img src={IMAGES.projCrewChat} alt="" className="portfolio-gallery__item-image" />
                     <h4 className="portfolio-gallery__item-title"><a href="https://mern-group-chat.onrender.com" target="_blank" rel="noopener noreferrer" className="item-link">Crew Chat MERN App</a></h4>

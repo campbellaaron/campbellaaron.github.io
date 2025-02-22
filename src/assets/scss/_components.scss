@@ -402,6 +402,12 @@ nav.navbar {
                 @media (max-width: 992px) {
                     
                 }
+
+                & + p .proj-note {
+                    font-size: small;
+                    font-style: italic;
+                    opacity: 0.8;
+                }
             }
 
             &.hidden {

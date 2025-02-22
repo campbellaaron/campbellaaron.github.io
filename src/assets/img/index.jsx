@@ -1,5 +1,6 @@
 
 const IMAGES = {
+    laravelPM: require('../img/laravelPM.png'),
     logoAdobe: require('../img/adobe-logo.png'),
     logoArtStation: require('../img/artstation-logo.png'),
     logoUnity: require('../img/unity-logo.png'),
