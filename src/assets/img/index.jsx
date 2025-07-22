@@ -14,6 +14,7 @@ const IMAGES = {
     projCrewChat: require('../img/crewchat_screenshot_02.png'),
     projFastChange: require('../img/fast-change-screen.png'),
     projINFMCP: require('../img/infmcp-screenshot.png'),
+    projLbiSite: require('../img/lickbeans-site.png'),
     projMAAC: require('../img/maac-after.png'),
     projPython: require('../img/python-figure.png'),
     projWeather: require('../img/react-weather-screenshot.png'),

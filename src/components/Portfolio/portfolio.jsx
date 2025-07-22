@@ -26,6 +26,11 @@ const Portfolio = () => {
                 <li data-project-type="misc" onClick={handleMenuClick} className="filterMenu__item">Miscellaneous</li>
             </ul>
             <div className="portfolio-gallery">
+                <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'wordpress' ? 'visible' : 'hidden'}`} data-project-type="wordpress">
+                    <img src={IMAGES.projLbiSite} alt="" className="portfolio-gallery__item-image" />
+                    <h4 className="portfolio-gallery__item-title"><a href="https://lickbeansinteractive.com" target="_blank" rel="noopener noreferrer" className="item-link">Lickbeans Interactive Website</a></h4>
+                    <p className="portfolio-gallery__item-description">A headless WordPress website that was initially a ReactJS front end but was then converted to NextJS to handle some more heavy lifting, especially with metadata and SEO.</p>
+                </div>
                 <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'misc' ? 'visible' : 'hidden'}`} data-project-type="misc">
                     <img src={IMAGES.laravelPM} alt="" className="portfolio-gallery__item-image" />
                     <h4 className="portfolio-gallery__item-title"><a href="https://github.com/campbellaaron/laravel-project-management" target="_blank" rel="noopener noreferrer" className="item-link">Laravel Project Management App</a></h4>
