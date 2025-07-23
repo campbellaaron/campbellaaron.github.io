@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d3740826.css",
-    "main.js": "/static/js/main.c08d065d.js",
+    "main.js": "/static/js/main.8bc4c960.js",
     "static/media/awc.png": "/static/media/awc.20e8d65e20aa86d449bf.png",
     "static/media/react-weather-screenshot.png": "/static/media/react-weather-screenshot.f31460bc9f9faa5ea897.png",
     "static/media/fast-change-screen.png": "/static/media/fast-change-screen.ba820fbca818489ae75c.png",
@@ -25,10 +25,10 @@
     "static/media/adobe-logo.png": "/static/media/adobe-logo.00f2edbcaade9d3b4a45.png",
     "index.html": "/index.html",
     "main.d3740826.css.map": "/static/css/main.d3740826.css.map",
-    "main.c08d065d.js.map": "/static/js/main.c08d065d.js.map"
+    "main.8bc4c960.js.map": "/static/js/main.8bc4c960.js.map"
   },
   "entrypoints": [
     "static/css/main.d3740826.css",
-    "static/js/main.c08d065d.js"
+    "static/js/main.8bc4c960.js"
   ]
 }
