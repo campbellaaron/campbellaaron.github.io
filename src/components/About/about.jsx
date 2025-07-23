@@ -5,7 +5,7 @@ const About = () => {
     return (
         <section id="about">
             <h2 className="heading">What I Do</h2>
-            <p className="about-me">I'm a single dad who is always chasing the next big opportunity, learning new technologies and putting them to use so that my son can have a better life. I am mostly self-taught, though I do have some college credits mixed in there. I am experienced in WordPress and front-end development, game development, and Adobe Creative Suite.</p>
+            <p className="about-me">I'm a single dad who is always chasing the next big opportunity, learning new technologies and putting them to use so that my son can have a better life. I am mostly self-taught, though I do have some college credits mixed in, as I am also attending university part-time to complete my bachelors in Computer Science. I am experienced in WordPress and front-end development, game development, and Adobe Creative Suite.</p>
             <a href="https://www.artstation.com/lickbeans" target="_blank" rel="noopener noreferrer" className="artstation-link"><img src={IMAGES.logoArtStation} alt="ArtStation logo" className="artstation-logo" /></a>
             <p style={{textAlign: 'center'}}>Also, feel free to check out my <a href="https://www.artstation.com/lickbeans" target="_blank" rel="noopener noreferrer" className="artstation-link">ArtStation page</a> to see a few of my visual works.</p>
             <div className="skillCards">
