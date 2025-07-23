@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.d3740826.css",
-    "main.js": "/static/js/main.cf4eac69.js",
+    "main.js": "/static/js/main.c08d065d.js",
     "static/media/awc.png": "/static/media/awc.20e8d65e20aa86d449bf.png",
     "static/media/react-weather-screenshot.png": "/static/media/react-weather-screenshot.f31460bc9f9faa5ea897.png",
     "static/media/fast-change-screen.png": "/static/media/fast-change-screen.ba820fbca818489ae75c.png",
     "static/media/maac-after.png": "/static/media/maac-after.a13249c3553225479904.png",
     "static/media/logo.png": "/static/media/logo.34dc9a9317ca2fe4b558.png",
     "static/media/startech-screenshot.png": "/static/media/startech-screenshot.e60726f65f7bad90d0eb.png",
+    "static/media/lickbeans-site.png": "/static/media/lickbeans-site.aa72f16fa1bf8e69e2d1.png",
     "static/media/infmcp-screenshot.png": "/static/media/infmcp-screenshot.d4b89e6bda6860bb97a0.png",
     "static/media/crewchat_screenshot_02.png": "/static/media/crewchat_screenshot_02.c0bebd6055d212839451.png",
     "static/media/peta2dissection-screen.png": "/static/media/peta2dissection-screen.da5685d8fa280b8079b3.png",
@@ -24,10 +25,10 @@
     "static/media/adobe-logo.png": "/static/media/adobe-logo.00f2edbcaade9d3b4a45.png",
     "index.html": "/index.html",
     "main.d3740826.css.map": "/static/css/main.d3740826.css.map",
-    "main.cf4eac69.js.map": "/static/js/main.cf4eac69.js.map"
+    "main.c08d065d.js.map": "/static/js/main.c08d065d.js.map"
   },
   "entrypoints": [
     "static/css/main.d3740826.css",
-    "static/js/main.cf4eac69.js"
+    "static/js/main.c08d065d.js"
   ]
 }
