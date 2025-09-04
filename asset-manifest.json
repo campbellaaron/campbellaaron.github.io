@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3740826.css",
-    "main.js": "/static/js/main.8bc4c960.js",
+    "main.css": "/static/css/main.0a9a9db9.css",
+    "main.js": "/static/js/main.f8cb8f2d.js",
     "static/media/awc.png": "/static/media/awc.20e8d65e20aa86d449bf.png",
     "static/media/react-weather-screenshot.png": "/static/media/react-weather-screenshot.f31460bc9f9faa5ea897.png",
     "static/media/fast-change-screen.png": "/static/media/fast-change-screen.ba820fbca818489ae75c.png",
+    "static/media/skillsDigitalMarketing.png": "/static/media/skillsDigitalMarketing.c93d22ccec9cd51cd78c.png",
     "static/media/maac-after.png": "/static/media/maac-after.a13249c3553225479904.png",
     "static/media/logo.png": "/static/media/logo.34dc9a9317ca2fe4b558.png",
     "static/media/startech-screenshot.png": "/static/media/startech-screenshot.e60726f65f7bad90d0eb.png",
@@ -18,17 +19,20 @@
     "static/media/laravelPM.png": "/static/media/laravelPM.207fd9829e2610f96c53.png",
     "static/media/3dplatformproto.png": "/static/media/3dplatformproto.a1dffe6bffa5e0761dd1.png",
     "static/media/petaDEwissenschaft.png": "/static/media/petaDEwissenschaft.dfd3a007bf66c71a82ee.png",
+    "static/media/draw-insights-from-marketing-data.png": "/static/media/draw-insights-from-marketing-data.db227e58b3647b6d3aa3.png",
     "static/media/comiccrud-screenshot.png": "/static/media/comiccrud-screenshot.bbdfafc2f815efb43324.png",
+    "static/media/marketing-your-content.png": "/static/media/marketing-your-content.6280f5b467225ed06056.png",
     "static/media/sumoproto.png": "/static/media/sumoproto.e5887575a9b6107824f4.png",
     "static/media/wp-logo.png": "/static/media/wp-logo.d79beef488060157460e.png",
     "static/media/python-figure.png": "/static/media/python-figure.ea4a0f4b28c2431ef405.png",
     "static/media/adobe-logo.png": "/static/media/adobe-logo.00f2edbcaade9d3b4a45.png",
+    "static/media/get-ready-to-market.png": "/static/media/get-ready-to-market.8189d60b6569b6140395.png",
     "index.html": "/index.html",
-    "main.d3740826.css.map": "/static/css/main.d3740826.css.map",
-    "main.8bc4c960.js.map": "/static/js/main.8bc4c960.js.map"
+    "main.0a9a9db9.css.map": "/static/css/main.0a9a9db9.css.map",
+    "main.f8cb8f2d.js.map": "/static/js/main.f8cb8f2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3740826.css",
-    "static/js/main.8bc4c960.js"
+    "static/css/main.0a9a9db9.css",
+    "static/js/main.f8cb8f2d.js"
   ]
 }
