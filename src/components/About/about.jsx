@@ -6,9 +6,9 @@ const About = () => {
         <section id="about">
             <h2 className="heading">What I Do</h2>
             <p className="about-me">
-                I'm a single dad who is always chasing the next big opportunity, learning new technologies, and putting them to use so that my son can have a better life. In addition to front-end and game development, I’ve recently completed a Digital Marketing Nanodegree from Udacity, where I gained hands-on experience with SEO, content strategy, and campaign analytics. I’m mostly self-taught, currently attending university part-time to finish my degree in Computer Science.
+                I'm a dad who is always chasing the next big opportunity, learning new technologies, and putting them to use so that my son can have a better life. In addition to front-end and game development, I’ve recently completed a Digital Marketing Nanodegree from Udacity, where I gained hands-on experience with SEO, content strategy, and campaign analytics. I’m mostly self-taught, currently attending university part-time to finish my degree in Computer Science.
             </p>
-            <p style={{textAlign: 'center'}}>View my <a href="https://www.udacity.com/certificate/e/3193300e-3616-11f0-9c11-1706641a50d9" target="_blank" rel="noopener noreferrer">Udacity Digital Marketing Nanodegree Certificate</a>.</p>
+            <p style={{textAlign: 'center'}}>View my <a href="https://www.udacity.com/certificate/e/3193300e-3616-11f0-9c11-1706641a50d9" target="_blank" rel="noopener noreferrer" className="udacity-link">Udacity Digital Marketing Nanodegree Certificate</a>.</p>
             <a href="https://www.artstation.com/lickbeans" target="_blank" rel="noopener noreferrer" className="artstation-link"><img src={IMAGES.logoArtStation} alt="ArtStation logo" className="artstation-logo" /></a>
             <p style={{textAlign: 'center'}}>Also, feel free to check out my <a href="https://www.artstation.com/lickbeans" target="_blank" rel="noopener noreferrer" className="artstation-link">ArtStation page</a> to see a few of my visual works.</p>
             <div className="skillCards">
