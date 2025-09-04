@@ -23,6 +23,7 @@ const Portfolio = () => {
                 <li data-project-type="react" onClick={handleMenuClick} className="filterMenu__item">React</li>
                 <li data-project-type="dotnet" onClick={handleMenuClick} className="filterMenu__item">.NET</li>
                 <li data-project-type="gamedev" onClick={handleMenuClick} className="filterMenu__item">Game Development</li>
+                <li data-project-type="marketing" onClick={handleMenuClick} className="filterMenu__item">Marketing</li>
                 <li data-project-type="misc" onClick={handleMenuClick} className="filterMenu__item">Miscellaneous</li>
             </ul>
             <div className="portfolio-gallery">
@@ -40,6 +41,38 @@ const Portfolio = () => {
                     <img src={IMAGES.projCrewChat} alt="" className="portfolio-gallery__item-image" />
                     <h4 className="portfolio-gallery__item-title"><a href="https://mern-group-chat.onrender.com" target="_blank" rel="noopener noreferrer" className="item-link">Crew Chat MERN App</a></h4>
                     <p className="portfolio-gallery__item-description">An ongoing MERN stack app built with Vite React, Firebase Storage, and TailwindCSS. Features file sharing, profile photos, and group chat capabilities. <strong>STILL TO COME: </strong>Email verification, Unread Messages notifications, Channel Admins to delete group channels</p>
+                </div>
+                {/* Udacity: Draw Insights from Marketing Data */}
+                <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'marketing' ? 'visible' : 'hidden'}`} data-project-type="marketing">
+                    <img src={IMAGES.projMarketingData} alt="" className="portfolio-gallery__item-image" />
+                    <h4 className="portfolio-gallery__item-title">
+                        <a href="/assets/docs/draw-insights-from-marketing-data-aaronc.pdf" target="_blank" rel="noopener noreferrer" className="item-link">
+                            Draw Insights from Marketing Data
+                        </a>
+                    </h4>
+                    <p className="portfolio-gallery__item-description">A Google Ads performance report built using mock client data. Interpreted ad performance using KPIs and visualizations, and provided strategic recommendations.</p>
+                </div>
+
+                {/* Udacity: Marketing Your Content */}
+                <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'marketing' ? 'visible' : 'hidden'}`} data-project-type="marketing">
+                    <img src={IMAGES.projMarketingContent} alt="" className="portfolio-gallery__item-image" />
+                    <h4 className="portfolio-gallery__item-title">
+                        <a href="/assets/docs/marketing-your-content-project-aaronc.pdf" target="_blank" rel="noopener noreferrer" className="item-link">
+                            Marketing Your Content
+                        </a>
+                    </h4>
+                    <p className="portfolio-gallery__item-description">Created a content marketing strategy that aligns with the buyer journey, developed campaign goals, and selected optimal distribution channels.</p>
+                </div>
+
+                {/* Udacity: Get Ready to Market */}
+                <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'marketing' ? 'visible' : 'hidden'}`} data-project-type="marketing">
+                    <img src={IMAGES.projReadyToMarket} alt="" className="portfolio-gallery__item-image" />
+                    <h4 className="portfolio-gallery__item-title">
+                        <a href="/assets/docs/get-ready-to-market-project-aaronc.pdf" target="_blank" rel="noopener noreferrer" className="item-link">
+                            Get Ready to Market
+                        </a>
+                    </h4>
+                    <p className="portfolio-gallery__item-description">Defined buyer personas and customer journey stages, crafted campaign objectives and KPIs, and prepared messaging aligned with audience segments.</p>
                 </div>
                 <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'dotnet' ? 'visible' : 'hidden'}`} data-project-type="dotnet">
                     <img src={IMAGES.projComicCrud} alt="" className="portfolio-gallery__item-image" />

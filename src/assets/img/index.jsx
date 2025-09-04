@@ -6,6 +6,7 @@ const IMAGES = {
     logoUnity: require('../img/unity-logo.png'),
     logoAWC: require('../img/logo.png'),
     logoWP: require('../img/wp-logo.png'),
+    logoMarketing: require('../img/skillsDigitalMarketing.png'),
     imageAWC: require('../img/awc.png'),
     iconBriefcase: require('../img/briefcase.png'),
     iconChat: require('../img/chaticon.png'),
@@ -25,6 +26,9 @@ const IMAGES = {
     projPETAveganStart: require('../img/petaDEveganstart-screen.png'),
     projPETAwissen: require('../img/petaDEwissenschaft.png'),
     projPETA2Dissection: require('../img/peta2dissection-screen.png'),
+    projMarketingData: require('../img/draw-insights-from-marketing-data.png'),
+    projMarketingContent: require('../img/marketing-your-content.png'),
+    projReadyToMarket: require('../img/get-ready-to-market.png'),
 }
 
 export default IMAGES
