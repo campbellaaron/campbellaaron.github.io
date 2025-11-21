@@ -29,6 +29,7 @@ const IMAGES = {
     projMarketingData: require('../img/draw-insights-from-marketing-data.png'),
     projMarketingContent: require('../img/marketing-your-content.png'),
     projReadyToMarket: require('../img/get-ready-to-market.png'),
+    projHeadlineBooster: require('../img/headline-booster-screenshot.png'),
 }
 
 export default IMAGES

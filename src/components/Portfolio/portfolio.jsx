@@ -28,6 +28,11 @@ const Portfolio = () => {
             </ul>
             <div className="portfolio-gallery">
                 <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'wordpress' ? 'visible' : 'hidden'}`} data-project-type="wordpress">
+                    <img src={IMAGES.projHeadlineBooster} alt="" className="portfolio-gallery__item-image" />
+                    <h4 className="portfolio-gallery__item-title"><a href="https://github.com/campbellaaron/wp-ai-headline-booster/releases/tag/v1.0.0" target="_blank" rel="noopener noreferrer" className="item-link">Headline Booster &mdash; AI-Powered Title Suggestions</a></h4>
+                    <p className="portfolio-gallery__item-description">A Gutenberg-integrated WordPress plugin that sends the current post title (and optional excerpt) to OpenAI, generates 3–5 alternative headlines, scores each one (0–100) based on length and structure, and lets editors apply the best title with a single click. Built with PHP, the WordPress REST API, OpenAI’s Chat Completions API, and the block editor JS APIs—no custom build step required.</p>
+                </div>
+                <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'wordpress' ? 'visible' : 'hidden'}`} data-project-type="wordpress">
                     <img src={IMAGES.projLbiSite} alt="" className="portfolio-gallery__item-image" />
                     <h4 className="portfolio-gallery__item-title"><a href="https://lickbeansinteractive.com" target="_blank" rel="noopener noreferrer" className="item-link">Lickbeans Interactive Website</a></h4>
                     <p className="portfolio-gallery__item-description">A headless WordPress website that was initially a ReactJS front end but was then converted to NextJS to handle some more heavy lifting, especially with metadata and SEO.</p>
