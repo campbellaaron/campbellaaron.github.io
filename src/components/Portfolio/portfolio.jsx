@@ -29,7 +29,7 @@ const Portfolio = () => {
             <div className="portfolio-gallery">
                 <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'wordpress' ? 'visible' : 'hidden'}`} data-project-type="wordpress">
                     <img src={IMAGES.projHeadlineBooster} alt="" className="portfolio-gallery__item-image" />
-                    <h4 className="portfolio-gallery__item-title"><a href="https://github.com/campbellaaron/wp-ai-headline-booster/releases/tag/v1.0.0" target="_blank" rel="noopener noreferrer" className="item-link">Headline Booster &mdash; AI-Powered Title Suggestions</a></h4>
+                    <h4 className="portfolio-gallery__item-title"><a href="https://github.com/campbellaaron/wp-ai-headline-booster/releases/tag/v1.0.4" target="_blank" rel="noopener noreferrer" className="item-link">Headline Booster &mdash; AI-Powered Title Suggestions</a></h4>
                     <p className="portfolio-gallery__item-description">A Gutenberg-integrated WordPress plugin that sends the current post title (and optional excerpt) to OpenAI, generates 3–5 alternative headlines, scores each one (0–100) based on length and structure, and lets editors apply the best title with a single click. Built with PHP, the WordPress REST API, OpenAI’s Chat Completions API, and the block editor JS APIs—no custom build step required.</p>
                 </div>
                 <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'wordpress' ? 'visible' : 'hidden'}`} data-project-type="wordpress">
@@ -118,6 +118,11 @@ const Portfolio = () => {
                     <img src={IMAGES.projSurvival} alt="" className="portfolio-gallery__item-image" />
                     <h4 className="portfolio-gallery__item-title"><a href="https://store.steampowered.com/app/1565290/Survival_Horror_8436/" target="_blank" rel="noopener noreferrer" className="item-link">Survival Horror #8,436</a></h4>
                     <p className="portfolio-gallery__item-description">A small cat-n-mouse style survival horror game made in Unreal Engine 4</p>
+                </div>
+                <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'gamedev' ? 'visible' : 'hidden'}`} data-project-type="gamedev">
+                    <img src={IMAGES.projRoguelike} alt="" className="portfolio-gallery__item-image" />
+                    <h4 className="portfolio-gallery__item-title"><a href="https://play.unity.com/api/v1/games/game/84092676-9c69-40db-8d9e-2123a1d788aa/build/latest/frame" target="_blank" rel="noopener noreferrer" className="item-link">2D Scavenger Roguelike (Enhanced Edition)</a></h4>
+                    <p className="portfolio-gallery__item-description">A turn-based dungeon crawler built in Unity. This project expands on the classic 2D Roguelike framework with robust custom systems including persistent save data, RPG statistics, and reactive enemy AI.</p>
                 </div>
                 <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'gamedev' ? 'visible' : 'hidden'}`} data-project-type="gamedev">
                     <img src={IMAGES.projSumo} alt="" className="portfolio-gallery__item-image" />

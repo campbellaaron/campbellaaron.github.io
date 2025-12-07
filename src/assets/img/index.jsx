@@ -23,6 +23,7 @@ const IMAGES = {
     projStarTech: require('../img/startech-screenshot.png'),
     projSumo: require('../img/sumoproto.png'),
     proj3dPlatform: require('../img/3dplatformproto.png'),
+    projRoguelike: require('../img/roguelike-screenshot.png'),
     projPETAveganStart: require('../img/petaDEveganstart-screen.png'),
     projPETAwissen: require('../img/petaDEwissenschaft.png'),
     projPETA2Dissection: require('../img/peta2dissection-screen.png'),
