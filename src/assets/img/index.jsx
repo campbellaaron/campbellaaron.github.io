@@ -22,6 +22,7 @@ const IMAGES = {
     projSurvival: require('../img/sh-figure.png'),
     projStarTech: require('../img/startech-screenshot.png'),
     projSumo: require('../img/sumoproto.png'),
+    projPerformanceReview: require('../img/performance-review-screen.png'),
     proj3dPlatform: require('../img/3dplatformproto.png'),
     projRoguelike: require('../img/roguelike-screenshot.png'),
     projPETAveganStart: require('../img/petaDEveganstart-screen.png'),

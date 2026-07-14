@@ -125,9 +125,9 @@ const Portfolio = () => {
                     <p className="portfolio-gallery__item-description">A turn-based dungeon crawler built in Unity. This project expands on the classic 2D Roguelike framework with robust custom systems including persistent save data, RPG statistics, and reactive enemy AI.</p>
                 </div>
                 <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'gamedev' ? 'visible' : 'hidden'}`} data-project-type="gamedev">
-                    <img src={IMAGES.projSumo} alt="" className="portfolio-gallery__item-image" />
-                    <h4 className="portfolio-gallery__item-title"><a href="https://play.unity.com/mg/other/sumo-ball-prototype-4-create-with-code" target="_blank" rel="noopener noreferrer" className="item-link">Sumo Ball Prototype</a></h4>
-                    <p className="portfolio-gallery__item-description">A prototype where you move around a platform, avoiding enemies and the dangerous abyss simultaneously </p>
+                    <img src={IMAGES.projPerformanceReview} alt="" className="portfolio-gallery__item-image" />
+                    <h4 className="portfolio-gallery__item-title"><a href="https://play.unity.com/en/games/d667db5c-a39d-435e-a5e1-74d079a71e9f/performance-review" target="_blank" rel="noopener noreferrer" className="item-link">Performance Review - Synty Jam Entry</a></h4>
+                    <p className="portfolio-gallery__item-description">A stealth comedy about hiding from Boss Man, faking productivity, completing office tasks, and making it to 5 PM.</p>
                 </div>
                 <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'gamedev' ? 'visible' : 'hidden'}`} data-project-type="gamedev">
                     <img src={IMAGES.proj3dPlatform} alt="" className="portfolio-gallery__item-image" />
