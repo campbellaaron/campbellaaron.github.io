@@ -27,6 +27,11 @@ const Portfolio = () => {
                 <li data-project-type="misc" onClick={handleMenuClick} className="filterMenu__item">Miscellaneous</li>
             </ul>
             <div className="portfolio-gallery">
+                <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'gamedev' ? 'visible' : 'hidden'}`} data-project-type="gamedev">
+                    <img src={IMAGES.projTheWakeEvent} alt="" className="portfolio-gallery__item-image" />
+                    <h4 className="portfolio-gallery__item-title"><a href="https://store.steampowered.com/app/4757720/The_Wake_Event/" target="_blank" rel="noopener noreferrer" className="item-link">The Wake Event</a></h4>
+                    <p className="portfolio-gallery__item-description">Awaken alone aboard an abandoned orbital research station where automated systems continue operating long after the crew has disappeared.</p>
+                </div>
                 <div className={`portfolio-gallery__item ${selectedCategory === 'all' || selectedCategory === 'wordpress' ? 'visible' : 'hidden'}`} data-project-type="wordpress">
                     <img src={IMAGES.projHeadlineBooster} alt="" className="portfolio-gallery__item-image" />
                     <h4 className="portfolio-gallery__item-title"><a href="https://wordpress.org/plugins/headline-booster-ai-title-suggestions/" target="_blank" rel="noopener noreferrer" className="item-link">Headline Booster &mdash; AI-Powered Title Suggestions</a></h4>
