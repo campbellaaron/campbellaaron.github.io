@@ -38,7 +38,7 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-                <div className="skillCard">
+                {/* <div className="skillCard">
                     <img src={IMAGES.logoAdobe} alt="Adobe product logo" className="skillCard__img" />
                     <div className="skillCard__text">
                         <h3 className="skillCard__title">Video Editing &amp; Animation</h3>
@@ -50,7 +50,7 @@ const About = () => {
                             </ul>
                         </p>
                     </div>
-                </div>
+                </div> */}
                 <div className="skillCard">
                     <img src={IMAGES.logoMarketing} alt="Marketing logo" className="skillCard__img" />
                     <div className="skillCard__text">
